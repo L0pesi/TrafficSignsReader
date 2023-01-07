@@ -1,0 +1,32 @@
+﻿  Source.cpp
+C:\Users\diogo\Desktop\TP2\TP2\vc.h(12,1): warning C4005: 'MAX': macro redefinition
+C:\opencv\build\include\opencv2\core\cvdef.h(489): message : see previous definition of 'MAX'
+C:\Users\diogo\Desktop\TP2\TP2\vc.h(13,1): warning C4005: 'MIN': macro redefinition
+C:\opencv\build\include\opencv2\core\cvdef.h(485): message : see previous definition of 'MIN'
+C:\Users\diogo\Desktop\TP2\TP2\Source.cpp(117,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\Source.cpp(118,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\Source.cpp(121,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  vc.c
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(251,70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(292,66): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(404,13): warning C4101: 'z': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(431,13): warning C4101: 'z': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(457,13): warning C4101: 'z': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(483,13): warning C4101: 'z': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(643,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(644,45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(645,45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(629,23): warning C4101: 'value': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(629,11): warning C4101: 'saturation': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(629,6): warning C4101: 'hue': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(1406,41): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(1363,9): warning C4101: 'temp': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(1465,49): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(1425,9): warning C4101: 'temp': unreferenced local variable
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(1529,39): warning C4013: 'sqrt' undefined; assuming extern returning int
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(1757,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\diogo\Desktop\TP2\TP2\vc.c(1784,62): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+Source.obj : error LNK2019: unresolved external symbol "public: virtual bool __cdecl cv::VideoCapture::read(class cv::debug_build_guard::_OutputArray const &)" (?read@VideoCapture@cv@@UEAA_NAEBV_OutputArray@debug_build_guard@2@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@debug_build_guard@1@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::putText(class cv::debug_build_guard::_InputOutputArray const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z) referenced in function main
+C:\Users\diogo\Desktop\TP2\TP2\x64\Debug\TP2.exe : fatal error LNK1120: 3 unresolved externals

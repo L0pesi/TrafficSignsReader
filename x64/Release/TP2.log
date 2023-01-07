@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\diogo\Dropbox\Work Group - LESI-PL\Visão por Computador\TP2\TP2-CODIGO\vc.h(2,1): warning C4005: 'MAX': macro redefinition
+C:\opencv\build\include\opencv2\core\cvdef.h(489): message : see previous definition of 'MAX'
+C:\Users\diogo\Dropbox\Work Group - LESI-PL\Visão por Computador\TP2\TP2-CODIGO\vc.h(3,1): warning C4005: 'MIN': macro redefinition
+C:\opencv\build\include\opencv2\core\cvdef.h(485): message : see previous definition of 'MIN'
+C:\Users\diogo\Dropbox\Work Group - LESI-PL\Visão por Computador\TP2\TP2-CODIGO\Source.cpp(128,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\diogo\Dropbox\Work Group - LESI-PL\Visão por Computador\TP2\TP2-CODIGO\Source.cpp(129,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\diogo\Dropbox\Work Group - LESI-PL\Visão por Computador\TP2\TP2-CODIGO\Source.cpp(132,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  0 of 248 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  TP2.vcxproj -> C:\Users\diogo\Dropbox\Work Group - LESI-PL\Visão por Computador\TP2\TP2-CODIGO\x64\Release\TP2.exe
