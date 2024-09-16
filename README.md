@@ -1,9 +1,6 @@
 # TrafficSignsReader
 Program to read and interpret Traffic Signs - Computer Vision Study Work
 
-# 4emLinha-AI
-Programa de Inteligência Artificial para o Tradicional Jogo 4 em Linha em Python
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
